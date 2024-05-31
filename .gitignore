@@ -1,0 +1,53 @@
+# .gitignore
+
+# General
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Django
+*.py[cod]
+*.sqlite3
+*.log
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+*.cache
+
+# React
+build/
+.DS_Store
+
+# Docker
+*.env
+.env.*
+Dockerfile
+docker-compose.yml
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
