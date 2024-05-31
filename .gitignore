@@ -7,6 +7,15 @@
 __pycache__/
 local_settings.py
 
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Django
 *.py[cod]
 *.sqlite3
@@ -15,6 +24,7 @@ db.sqlite3
 media/
 staticfiles/
 .env
+*.pgdata
 
 # Node
 node_modules/
